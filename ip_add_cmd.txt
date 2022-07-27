@@ -1,0 +1,6 @@
+Some useful commands
+dxdiag - to know system config
+ipconfig - to know private IP
+ping <IP address or website name> - to know website IP address or check response time 
+tracert <website name or IP address> - to know network routes 
+getmac - to know MAC ID address / physical address

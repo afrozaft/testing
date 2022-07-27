@@ -1,0 +1,98 @@
+# Check git version 
+$ git --version
+
+# Create user name for all projects
+$ git config --global user.name abcd
+
+# Create user name for single project
+$ get config user.name abcd
+
+# Create user email for all projects
+$ get config --global user.email abcd@gmail.com
+
+# Create user email for single project
+$ get config user.email abcd@gmail.com
+
+# Create folder / repository
+$ mkdir abcd
+
+# Create file file
+$ touch xyz.php
+
+# Initialise the git / Start git feature
+$ git init
+
+# Add file on git
+$ git add xyz.php
+
+# Add all file on git
+$ git add -A / $ git add --all
+
+# Check list of file
+$ ls
+
+# clear screen
+$ clear
+
+# Check status 
+$ git status
+
+# Save snapshot of file
+$ git commit -m "your message / changes"
+
+# Last updated snapshot
+$ git checkout
+
+# Last updated all file
+$ git checkout -f
+
+# Show all commited 
+$ git log
+
+# Show filter commited
+$ git log -p -no. of commit you want to see
+
+# Show changes
+$ git diff
+
+# Compaire with last changes(compaire last commit)
+$ git diff --staged
+
+# Commit all working file at one time
+$ git commit -a -m "Enter your message"
+
+# Remove file on repository
+$ git rm xyz.php
+
+# Remove file only on git(untracked file)
+$ git rm --cached xyz.php
+
+# Show short status
+$ git status -s / $ git status --short
+
+# Check for basic command
+$ git --help
+
+# Check for all command
+$ git help --all
+
+# Move or rename a file
+$ git mv
+
+# Check commit command
+$ git commit -help
+
+# Check status command
+$ git status -help
+
+# Exit on current command
+$ q
+
+# Create branch
+$ git branch branch-name
+
+# Switch to branch 
+$ git checkout branch-name
+
+# Create as well as switch
+$ git branch -b branch-name
