@@ -1,0 +1,15 @@
+$ ssh-keygen -t ed25519 -C "afrozaft@gmail.com"
+
+$ eval "$(ssh-agent -s)"
+
+$ ssh-add ~/.ssh/id_ed25519
+
+$ cat ~/.ssh/id_ed25519.pub
+
+$ git remote set-url github <SSH PATH>
+
+$ git remote
+
+$ git remote -v
+
+$ git push -u github master
